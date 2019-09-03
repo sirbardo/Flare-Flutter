@@ -3,14 +3,14 @@ library flare_flutter;
 import 'dart:async';
 import 'dart:math';
 import 'dart:typed_data';
-import 'dart:ui' as ui;
+import 'package:flutter_web_ui/ui.dart' as ui;
 
 import 'package:flare_dart/actor_flags.dart';
 import 'package:flare_dart/actor_image.dart';
 import 'package:flare_dart/math/aabb.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter_web/services.dart';
 
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 import 'package:flare_dart/actor_component.dart';
 import 'package:flare_dart/actor.dart';
 import 'package:flare_dart/actor_artboard.dart';

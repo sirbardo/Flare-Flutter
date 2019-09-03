@@ -1,6 +1,6 @@
 library flare_flutter;
 
-import 'dart:ui';
+import 'package:flutter_web_ui/ui.dart';
 
 double _appendPathSegmentSequential(Iterator<PathMetric> metricsIterator,
     Path to, double offset, double start, double stop) {
